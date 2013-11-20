@@ -1,5 +1,5 @@
 require(rjson)
-
+library(plyr)
 
 parseJson <- function(s) {
 if(is.na(s)){
