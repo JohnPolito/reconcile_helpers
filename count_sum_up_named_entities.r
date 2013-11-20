@@ -16,8 +16,7 @@ else {
 data.frame(num_ne=num_ne,sum_ne=sum_ne)
 }
 
-# file_path=file.choose()
-# dane_sites_feat<-read.csv(file_path,header=TRUE, sep=";")
+
 
 dane_sites_feat$named_entities[dane_sites_feat$named_entities=="None"]<- "{}"
 dane_sites_feat$named_entities[dane_sites_feat$named_entities=="{}"]<- NA
